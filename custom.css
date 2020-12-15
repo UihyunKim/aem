@@ -83,11 +83,11 @@ h1 {
   width: 100%;
 }
 
-#image-initialphoto {
-  /* position: relative; */
-  /* left: 0; */
-  /* top:0; */
-}
+/* #image-initialphoto { */
+/* position: relative; */
+/* left: 0; */
+/* top:0; */
+/* } */
 
 /* #############################################
    #          Styles for the sections          #
@@ -108,7 +108,7 @@ h1 {
 
 .section h3 {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5em;
   line-height: 1.65em;
   font-family: "Open Sans";
 }
@@ -139,4 +139,18 @@ h1 {
 marquee p {
   color: #17175d;
   font-size: 24px;
+}
+
+/* #############################################
+   #      Styles for the copyright      #
+   ############################################# */
+#copyright {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+#copyright p {
+  padding: 0;
+  margin: 0;
 }
