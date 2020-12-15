@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+body{
+	/*font-family: Open Sans,Arial,sans-serif;*/
+	font-family: 'Open Sans light';
+	text-justify: inter-word;
+	text-align: justify;
+}
+
+h1{
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 1em;
+	font-family: 'Open Sans Regular';
+	line-height: 1.65em;
+}
+
+
+/* #############################################
+   #         Styles for the navigation         #
+   ############################################# */
+#navegation{
+	background-color: rgba(0, 0, 0, 0.8)!important;
+	background: rgba(0, 0, 0, 0.8)!important;
+	position: absolute;
+	left:0;
+	top:0;
+	width: 100%;
+}
+.bg-light{
+	background-color: transparent!important;
+}
+
+/* Configuration for the button */
+.navbar-toggler{
+	margin-right: 3rem;
+	background-color: rgba(255, 255, 255, 1);
+}
+
+/* Configuration for the block after clicking in the button */
+#navbarSupportedContent{
+	/* background-color: rgba(255, 255, 255, 0.7);*/
+	background-color: transparent;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.navbar-nav{
+	padding: 1.5rem 0 1.5rem 0;
+}
+
+/* Style for the words in navigation */
+.nav-link{ 
+	color: #fff!important;
+}
+
+
+
+/* Style for the images */
+.landscape{
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.landscape img{
+	width: 100%;
+}
+
+
+
+#image-initialphoto{
+	/* position: relative; */
+	/* left: 0; */
+	/* top:0; */
+}
+
+
+
+/* #############################################
+   #          Styles for the sections          #
+   ############################################# */
+
+.section{
+	background-color: #ffffff;
+	padding-top: 3em;
+	padding-right: 12em;
+	padding-bottom: 3em;
+	padding-left: 12em;
+}
+
+.section p{
+	font-size: 1.8em;
+	line-height: 1.65em;
+}
+
+.section h3{
+	font-weight: bold;
+	font-size: 1.8em;
+	line-height: 1.65em;
+	font-family: 'Open Sans Regular';
+}
+
+.subsection{
+	margin-bottom: 2em;
+}
+
+
+
+
+/* #############################################
+   #      Styles for the contact sections      #
+   ############################################# */
+
+
+#contact{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	background-color: #fff;
+	text-align: center;
+}
+
+#contact p{
+	font-size: 1.3em;
+	margin-bottom: 0!important;
+}
