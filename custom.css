@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
-
 @font-face {
   font-family: "Open Sans Light";
-  src: url("/fonts/OpenSans-Light.woff2") format("woff2"),
-    url("/fonts/OpenSans-Light.woff") format("woff");
+  src: url("/fonts/OpenSans-Light.woff2") format("woff2"), url("/fonts/OpenSans-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular.woff") format("woff");
+  src: url("/fonts/OpenSans-Regular.woff2") format("woff2"), url("/fonts/OpenSans-Regular.woff") format("woff");
 }
 
 body {
@@ -35,9 +32,11 @@ h1 {
   line-height: 1.65em;
 }
 
+
 /* #############################################
    #         Styles for the navigation         #
    ############################################# */
+
 #navegation {
   background-color: rgba(0, 0, 0, 0.8) !important;
   background: rgba(0, 0, 0, 0.8) !important;
@@ -46,17 +45,22 @@ h1 {
   top: 0;
   width: 100%;
 }
+
 .bg-light {
   background-color: transparent !important;
 }
 
+
 /* Configuration for the button */
+
 .navbar-toggler {
   margin-right: 3rem;
   background-color: rgba(255, 255, 255, 1);
 }
 
+
 /* Configuration for the block after clicking in the button */
+
 #navbarSupportedContent {
   /* background-color: rgba(255, 255, 255, 0.7);*/
   background-color: transparent;
@@ -68,12 +72,16 @@ h1 {
   padding: 1.5rem 0 1.5rem 0;
 }
 
+
 /* Style for the words in navigation */
+
 .nav-link {
   color: #fff !important;
 }
 
+
 /* Style for the images */
+
 .landscape {
   min-width: 100%;
   max-width: 100%;
@@ -83,11 +91,21 @@ h1 {
   width: 100%;
 }
 
+
 /* #image-initialphoto { */
+
+
 /* position: relative; */
+
+
 /* left: 0; */
+
+
 /* top:0; */
+
+
 /* } */
+
 
 /* #############################################
    #          Styles for the sections          #
@@ -117,6 +135,7 @@ h1 {
   margin-bottom: 2em;
 }
 
+
 /* #############################################
    #      Styles for the contact sections      #
    ############################################# */
@@ -133,22 +152,39 @@ h1 {
   margin-bottom: 0 !important;
 }
 
+#message {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+#message p {
+  font-size: 1.3em;
+  margin-bottom: 0 !important;
+}
+
+
 /* #############################################
    #      Styles for the marquee      #
-	 ############################################# */
+     ############################################# */
+
 marquee p {
   color: #17175d;
   font-size: 24px;
 }
 
+
 /* #############################################
    #      Styles for the copyright      #
    ############################################# */
+
 #copyright {
   text-align: center;
   padding-bottom: 20px;
+  background: rgba(51, 51, 51, 1.00);
+  color: aliceblue
 }
-
 
 #copyright p {
   padding: 0;
